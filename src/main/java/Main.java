@@ -2,6 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         Factory factory = new Factory();
+        int neueVariable = 1;
 
         Car car1 = new Car("red", "BMW", 5);
         Car car2 = new Car("blue", "Audi", 3);
@@ -9,7 +10,7 @@ public class Main {
 
         Car car4 = new Car("yellow", "Renault", 4);
 
-        factory.buildCar(car1);
+        factory.buildCar(car1); 
         factory.buildCar(car2);
 
     }
