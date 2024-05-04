@@ -1,1 +1,2 @@
-int neue_Variable = 0;
+int neue_Variable = 1;
+
